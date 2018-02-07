@@ -16,7 +16,7 @@
 - Wiki: ラボメンバーリストやプロジェクトリストなど組織レベルのメモはここに
   書きましょう。
 
-## [WIP] ワークフロー
+## ワークフロー
 
 1. Discordなどで上がった意見を[XP-JP横断プロジェクト](
    https://github.com/orgs/xpjp/projects/1)の`Inbox 📬`にカードを登録します。
@@ -59,6 +59,11 @@
 1. 該当するプロジェクト(リポジトリ)のIssueにする。（該当するプロジェクト(リポジトリ)が無い場合は[planning](https://github.com/xpjp/planning)を利用)
 1. 該当するラベル(Labels)を付ける。  
 ※ Issueには達成条件（ゴール）を明確にすること。
+
+## `Inbox 📬`にカードがあるのを見かけたら
+1. カードの内容を見て、Issueになっていない場合は上記と同様にIssueにする。
+1. 自分が担当するプロジェクト(リポジトリ)、または[planning](https://github.com/xpjp/planning)プロジェクトでIssueになっているものを探す。
+1. カードを`Planning 🗪`に進め、Discordなどで仕様などを検討する。
 
 ## カード(Issue)の担当になる場合
 1. Issueの担当者(Assignees)に自分を指定する。
