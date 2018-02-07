@@ -24,8 +24,8 @@
    このリポジトリのIssueに変換し、カードを`Planning 🗪`に移動します。
 1. このリポジトリのIssueになったものは、Issueでの議論が終わり割り当てる
    リポジトリが決まった時点で新規のカードを作るステップに戻り、このIssueは
-   クローズします。([planning](https://github.com/xpjp/planning)の該当するカードも`Done 💪`に移動します)
-1. 割り当てられたリポジトリにて議論(`Planning 🗪`)、議論が不要または、議論が完了したら担当者が
+   クローズします。(Projectsの該当するカードも`Done 💪`に移動します)
+1. 割り当てられたリポジトリにて議論(`Planning 🗪`)、議論が不要または完了したら担当者が
    作業を開始します(`In progress 🍳`)。コードの改修についてはプルリクエストを
    使いましょう。
 1. 作業が終了したらIssueをクローズし、カードを`Done 💪`に移動します。
@@ -41,27 +41,27 @@
 ## カードステータスのルール
 
 - カード(Issue)を担当する人は必ずIssue担当者に自分にすること。
-- 着手中のカードは、[planning](https://github.com/xpjp/planning)上で(以下省略)`In progress`の状態にすること。
-- 完了カードは、`Done`の状態にすること。
-- 何かしらの理由で中断しているカードは、`ToDo`の状態にすること。（担当から外れる場合は担当者も外すこと)
+- 着手中のカードは、[planning](https://github.com/xpjp/planning)上で(以下省略)`In progress 🍳`の状態にすること。
+- 完了カードは、`Done 💪`の状態にすること。
+- 何かしらの理由で中断しているカードは`Inbox 📬`または`Planning 🗪`の状態にすること。（担当から外れる場合は担当者も外すこと)
 
 ## [planning](https://github.com/xpjp/planning)から該当するプロジェクト(リポジトリ)にカードを変更する場合のルール
 
 - 該当するプロジェクト(リポジトリ)にカードを新規作成する。
-- [planning](https://github.com/xpjp/planning)のカードを`Done`の状態にする。
+- [planning](https://github.com/xpjp/planning)のカードを`Done 💪`の状態にする。
 
 ***
 
 # 使用例
 ## やってほしいことや意見がある場合
 1. [XP-JP横断プロジェクト](
-   https://github.com/orgs/xpjp/projects/1)のToDoにカードを作る。
+   https://github.com/orgs/xpjp/projects/1)の`Inbox 📬`にカードを作る。
 1. 該当するプロジェクト(リポジトリ)のIssueにする。（該当するプロジェクト(リポジトリ)が無い場合は[planning](https://github.com/xpjp/planning)を利用)
 1. 該当するラベル(Labels)を付ける。  
-※ Issueには目的（ゴール）を明確にすること。
+※ Issueには達成条件（ゴール）を明確にすること。
 
 ## カード(Issue)の担当になる場合
 1. Issueの担当者(Assignees)に自分を指定する。
-1. 着手を開始したらカードを`In progress`に設定する。
-1. 作業が完了したらDiscordで連絡すると共にカードを`Done`に設定する。  
-   ※ 何かしらの理由で中断する場合は、カードを`ToDo`に戻す。（担当から外れる場合は担当者も外すこと)
+1. 着手を開始したらカードを`In progress 🍳`に設定する。
+1. 作業が完了したらDiscordで連絡すると共にカードを`Done 💪`に設定する。  
+   ※ 何かしらの理由で中断する場合は、カードを`Inbox 📬`または`Planning 🗪`に戻す。（担当から外れる場合は担当者も外すこと)
